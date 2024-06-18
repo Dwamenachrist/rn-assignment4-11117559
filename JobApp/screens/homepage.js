@@ -2,8 +2,8 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, View } from 'react-native';
 import Header from "../components/header"
 import SearchBar from "../components/searchBar"
-import Categories from "../components/categories"
-import OngoingTasks from "../components/todo"
+import Job from '../components/Job';
+import Todo from '../components/todo';
 
 const Home = () => {
   
@@ -12,8 +12,8 @@ const Home = () => {
       <Header />
       <SearchBar />
       <StatusBar style="auto" />
-      <Categories />
-      <OngoingTasks />
+      <Job />
+      <Todo />
     </View>
   );
 }

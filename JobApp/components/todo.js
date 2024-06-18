@@ -1,6 +1,6 @@
 import { StyleSheet, Text, View, FlatList, Image } from "react-native";
 import React from "react";
-import Popular from "./taskData";
+import Popular from "./PopularData";
 
 const Todo = () => {
   return (
